@@ -29,7 +29,7 @@ ACCOUNT_NAME = prompt("Please, enter name of your Microsoft Azure storage.")
 // Read about the Azure Table Storage REST API at http://api-portal.anypoint.mulesoft.com/onpositive/api/azure-table-storage-rest-api
 API.createClient(
   'client',
-  '/apiplatform/repository/public/organizations/30/apis/8112/versions/8308/definition', {
+  '#REF_TAG_DEFENITION', {
     baseUriParameters: {
       accountName: ACCOUNT_NAME
     }
